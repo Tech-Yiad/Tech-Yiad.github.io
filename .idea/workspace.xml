@@ -44,8 +44,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="267" column="4" lean-forward="true" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+            <state relative-caret-position="376">
+              <caret line="399" column="23" lean-forward="false" selection-start-line="399" selection-start-column="23" selection-end-line="399" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -138,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wear-se</find>
       <find>wear-sec</find>
       <find>about-techYi</find>
       <find>ide</find>
@@ -150,7 +149,6 @@
       <find>#</find>
       <find>next</find>
       <find>mycard</find>
-      <find>about-techYiad</find>
       <find>our na</find>
       <find>more</find>
       <find>android-more-section</find>
@@ -168,6 +166,8 @@
       <find>iconN</find>
       <find>about-te</find>
       <find>android-wear-section</find>
+      <find>max-wid</find>
+      <find>about-techYiad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -279,12 +279,12 @@
       <workItem from="1538818549084" duration="32876000" />
       <workItem from="1539181573251" duration="37961000" />
       <workItem from="1539369475194" duration="8728000" />
-      <workItem from="1539527291014" duration="1221000" />
+      <workItem from="1539527291014" duration="2478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109391000" />
+    <option name="totallyTimeSpent" value="110648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -591,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="267" column="4" lean-forward="true" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+        <state relative-caret-position="376">
+          <caret line="399" column="23" lean-forward="false" selection-start-line="399" selection-start-column="23" selection-end-line="399" selection-end-column="23" />
           <folding />
         </state>
       </provider>
