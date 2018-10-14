@@ -256,11 +256,18 @@ a img{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fafafa', GradientType=1 );
 }
 
+
 .engage-us{
   border-radius: 71px 71px 71px 71px;
   -moz-border-radius: 71px 71px 71px 71px;
   -webkit-border-radius: 71px 71px 71px 71px;
   border: 0px groove #000000;
+}
+
+@media screen and (max-width: 800px){
+  .android-footer{
+    margin-top: 100px;
+  }
 }
 
 .contacts-col{
