@@ -132,40 +132,34 @@
                         </div>
                         <div class="mdl-card__supporting-text">
 
-                            <form action="#">
+                            <form method="post" name="input" action="https://formspree.io/shelterfind.help@gmail.com">
                                 <div id="name">
                                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" id="first">
+                                        <input class="mdl-textfield__input" type="text" id="first" name="Name">
                                         <label class="mdl-textfield__label" for="Name">Name</label>
                                     </div>
                                 </div>
 
                                 <div id ="contact">
-                                    <div id="phone">
-                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="mobile">
-                                            <label class="mdl-textfield__label" for="Phone">Phone Number</label>
-                                            <span class="mdl-textfield__error">Mobile must be a number!</span>
-                                        </div>
-                                    </div>
-
                                     <div id="email">
                                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                            <input class="mdl-textfield__input" type="email" >
+                                            <input class="mdl-textfield__input" type="email" name="_replyto">
                                             <label class="mdl-textfield__label" for="Email">Email</label>
                                             <span class="mdl-textfield__error">Enter a valid email!</span>
                                         </div>
                                     </div>
 
                                     <div id="message">
-                                        <form action="#">
-                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                                <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
-                                                <label class="mdl-textfield__label" for="sample5">Message......</label>
-                                            </div>
-                                        </form>
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" name="message" ></textarea>
+                                            <label class="mdl-textfield__label" for="sample5">Message......</label>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <input type="submit" value="Send" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent  mdl-js-ripple-effect read-more>
+                                <input type="hidden" name="_subject" value="Tec-Yiad Contact Email">
+                                <input type="hidden" name="_next" value="Contact.html">
                             </form>
                         </div>
 
@@ -173,11 +167,6 @@
 
                     <!-- FAB button with ripple -->
                 </div>
-
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent  mdl-js-ripple-effect read-more">
-                        Send
-                    </button>
-
             </div>
         </div>
 
