@@ -1,5 +1,2 @@
 name: Tech-Yiad, software company
-markdown: kramdown
-
-plugins:
-  - jekyll-seo-tag
+markdown: redcarpet
